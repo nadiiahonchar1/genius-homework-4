@@ -1,23 +1,23 @@
-footer p {
-  color: var(--color-secondary-light);
-  font-size: 13px;
-  font-weight: 400;
-}
-
 .footer {
   padding: 56px 0;
   background-color: var(--color-primary-dark);
   position: relative;
   transition: fill 0.2s;
+
+  p {
+    color: var(--color-secondary-light);
+    font-size: 13px;
+    font-weight: 400;
+  }
 }
 
 .footer-icon {
   fill: var(--color-primary-light);
   transition: fill 0.2s;
-}
 
-.footer-icon:hover {
-  fill: var(--color-primary-accent);
+  &:hover {
+    fill: var(--color-primary-accent);
+  }
 }
 
 .footer-container {

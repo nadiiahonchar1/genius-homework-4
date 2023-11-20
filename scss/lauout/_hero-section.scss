@@ -12,28 +12,26 @@
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
+
+  .accent {
+    padding-top: 16px;
+  }
 }
 
-.hero-section .accent {
-  padding-top: 16px;
-}
-
-.hero-title {
+.hero__title {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
   font-weight: 400;
   margin-bottom: 40px;
-}
 
-.hero-title .accent {
-  color: var(--color-primary-accent);
-  font-size: 140px;
-  font-weight: 700;
-  line-height: 0.81;
-  text-transform: capitalize;
-  font-family: 'Play', sans-serif;
-  display: inline-block;
-  margin-top: 16px;
+  .accent {
+    font-size: 140px;
+    font-weight: 700;
+    line-height: 0.81;
+    text-transform: capitalize;
+    display: inline-block;
+    margin-top: 16px;
+  }
 }
 
 .hero-text {

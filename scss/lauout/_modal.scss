@@ -10,6 +10,12 @@
   justify-content: center;
   padding: 20px 0;
   transition: opacity 0.2s, visibility 0.2s;
+
+  &.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
 }
 
 .modal {
@@ -23,16 +29,10 @@
   padding: 42px 144px;
   position: relative;
   overflow-y: auto;
-}
 
-.modal-btn-close {
-  position: absolute;
-  top: 40px;
-  right: 40px;
-}
-
-.backdrop.is-hidden {
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
+  &__btn-close {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+  }
 }

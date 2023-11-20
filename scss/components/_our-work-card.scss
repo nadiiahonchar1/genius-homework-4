@@ -1,4 +1,4 @@
-.our-work-card {
+.our-work__card {
   border-radius: 120px 4px;
   background: linear-gradient(
     180deg,
@@ -9,15 +9,15 @@
   overflow: hidden;
   position: relative;
   transition: transform 0.2s;
-}
 
-.our-work-card:hover {
-  transform: scale(1.05);
-}
+  h3 {
+    position: absolute;
+    bottom: 0;
+    left: 30%;
+    text-align: center;
+  }
 
-.our-work-card h3 {
-  position: absolute;
-  bottom: 0;
-  left: 30%;
-  text-align: center;
+  &:hover {
+    transform: scale(1.05);
+  }
 }

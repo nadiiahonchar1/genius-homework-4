@@ -1,17 +1,17 @@
 .about-us-section {
   padding-top: 0;
-}
 
-.about-us-section .second-accent {
-  color: var(--color-primary-dark);
-  text-transform: capitalize;
-  font-weight: 500;
-}
+  p {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.72;
+  }
 
-.about-us-section p {
-  font-size: 22px;
-  font-weight: 400;
-  line-height: 1.72;
+  .second-accent {
+    color: var(--color-primary-dark);
+    text-transform: capitalize;
+    font-weight: 500;
+  }
 }
 
 .about-us-section-title {
@@ -22,7 +22,7 @@
   margin-top: 40px;
 }
 
-.about-us-container {
+.about-us__container {
   display: flex;
   gap: 28px;
 }

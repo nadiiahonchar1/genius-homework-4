@@ -13,12 +13,12 @@
   flex-shrink: 0;
   cursor: pointer;
   transition: color 0.2s, background-color 0.2s, fill 0.2s;
-}
 
-.carousel-button:hover {
-  background-color: var(--color-primary-accent);
-  border: 1px solid var(--color-primary-light);
-  fill: var(--color-primary-light);
+  &:hover {
+    background-color: var(--color-primary-accent);
+    border: 1px solid var(--color-primary-light);
+    fill: var(--color-primary-light);
+  }
 }
 
 .carousel-button.next {

@@ -5,13 +5,13 @@
 
   font-family: inherit;
   transition: color 0.2s;
-}
 
-.link-header:hover,
-.link-header:focus,
-.link-header:active {
-  /* font-weight: 700; */
-  color: var(--color-primary-accent);
+  &:hover,
+  &:focus,
+  &:active {
+    /* font-weight: 700; */
+    color: var(--color-primary-accent);
+  }
 }
 
 .link-footer {
@@ -20,13 +20,13 @@
   font-weight: 400;
   font-family: inherit;
   transition: color 0.2s;
-}
 
-.link-footer:hover,
-.link-footer:focus,
-.link-footer:active {
-  /* font-weight: 700; */
-  color: var(--color-primary-accent);
+  &:hover,
+  &:focus,
+  &:active {
+    /* font-weight: 700; */
+    color: var(--color-primary-accent);
+  }
 }
 
 .address {

@@ -9,12 +9,12 @@
   <body>
     <header class="header">
       <div class="container">
-        <div class="header-container">
-          <nav class="header-nav">
+        <div class="header__container">
+          <nav class="header__nav">
             <a href="/">
               <img src="./images/logo.svg" alt="Логотип Beauty Zone" />
             </a>
-            <ul class="header-menu">
+            <ul class="header__menu">
               <li>
                 <a href="#about-us-section" class="link-header">Про нас</a>
               </li>
@@ -64,9 +64,9 @@
     <main>
       <section class="hero-section">
         <div class="container">
-          <h1 class="hero-title">
+          <h1 class="hero__title">
             Косметологічна клініка <br />
-            <span lang="en" class="accent"
+            <span lang="en" class="text-brand accent"
               >beauty <br />
               zone</span
             >
@@ -81,11 +81,13 @@
       </section>
       <section id="about-us-section" class="about-us-section section">
         <div class="container">
-          <div class="about-us-container">
+          <div class="about-us__container">
             <div class="about-us-text-container">
               <h2 class="section-title about-us-section-title">
                 Перевтілюйтесь в
-                <span lang="en" class="accent toCapitalize">beauty zone!</span>
+                <span lang="en" class="text-brand toCapitalize"
+                  >beauty zone!</span
+                >
               </h2>
               <div class="about-us-section-text">
                 <p>
@@ -126,13 +128,13 @@
       </section>
       <section id="why-us-section" class="why-us-section section">
         <div class="container">
-          <h2 class="section-title why-us-section-title">
-            Чому люди <span class="accent">обирають нас</span>
+          <h2 class="section-title why-us-section__title">
+            Чому люди <span class="text-brand">обирають нас</span>
           </h2>
-          <ul class="why-us-section-list">
-            <li class="why-us-section-item">
+          <ul class="why-us-section__list">
+            <li class="why-us-section__item">
               <article>
-                <svg class="why-us-section-icon" width="48" height="48">
+                <svg class="why-us-section__icon" width="48" height="48">
                   <use
                     href="./images/svg-icons.svg#icon-game-icons_materials-science"
                   ></use>
@@ -143,9 +145,9 @@
                 </p>
               </article>
             </li>
-            <li class="why-us-section-item">
+            <li class="why-us-section__item">
               <article>
-                <svg class="why-us-section-icon" width="48" height="48">
+                <svg class="why-us-section__icon" width="48" height="48">
                   <use
                     href="./images/svg-icons.svg#icon-medicinecosmeticsbottletreatment"
                   ></use>
@@ -156,9 +158,9 @@
                 </p>
               </article>
             </li>
-            <li class="why-us-section-item">
+            <li class="why-us-section__item">
               <article>
-                <svg class="why-us-section-icon" width="48" height="48">
+                <svg class="why-us-section__icon" width="48" height="48">
                   <use href="./images/svg-icons.svg#icon-ph_crown-light"></use>
                 </svg>
                 <p>
@@ -172,8 +174,8 @@
       </section>
       <section id="our-work-section" class="our-work-section section">
         <div class="container">
-          <h2 class="section-title our-work-section-title">
-            Наші <span class="accent">процедури</span>
+          <h2 class="section-title our-work-section__title">
+            Наші <span class="text-brand">процедури</span>
           </h2>
           <div class="carousel-container">
             <button type="button" class="carousel-button">
@@ -181,9 +183,9 @@
                 <use href="./images/svg-icons.svg#icon-arrow"></use>
               </svg>
             </button>
-            <ul class="our-work-list">
-              <li class="our-work-item">
-                <article class="our-work-card">
+            <ul class="our-work__list">
+              <li class="our-work__item">
+                <article class="our-work__card">
                   <h3>Маски <br />для обличчя</h3>
                   <img
                     src="./images/Face-masks.jpg"
@@ -191,8 +193,8 @@
                   />
                 </article>
               </li>
-              <li class="our-work-item">
-                <article class="our-work-card">
+              <li class="our-work__item">
+                <article class="our-work__card">
                   <h3>Ін'єкції <br />для обличчя</h3>
                   <img
                     src="./images/Injections-for-the-face.jpg"
@@ -200,8 +202,8 @@
                   />
                 </article>
               </li>
-              <li class="our-work-item">
-                <article class="our-work-card">
+              <li class="our-work__item">
+                <article class="our-work__card">
                   <h3>Очищення <br />обличчя</h3>
                   <img
                     src="./images/Facial-cleansing.jpg"
@@ -220,8 +222,8 @@
       </section>
       <section id="contacts-section" class="contacts-section section">
         <div class="container">
-          <h2 class="section-title contacts-section-title">
-            Як нас <span class="accent">знайти</span>
+          <h2 class="section-title contacts-section__title">
+            Як нас <span class="text-brand">знайти</span>
           </h2>
           <div class="contacts-container">
             <iframe
@@ -379,7 +381,9 @@
     </footer>
     <div class="backdrop is-hidden">
       <div class="modal">
-        <button type="button" class="modal-btn-close">Close</button>
+        <button type="button" class="modal__btn-close modal-btn-close">
+          Close
+        </button>
         <h2 class="modal-title">Замовити дзвінок</h2>
         <p class="modal-text">
           Запишіться <span>безкоштовно</span> <br />
