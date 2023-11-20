@@ -1,0 +1,48 @@
+footer p {
+  color: var(--color-secondary-light);
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.footer {
+  padding: 56px 0;
+  background-color: var(--color-primary-dark);
+  position: relative;
+  transition: fill 0.2s;
+}
+
+.footer-icon {
+  fill: var(--color-primary-light);
+  transition: fill 0.2s;
+}
+
+.footer-icon:hover {
+  fill: var(--color-primary-accent);
+}
+
+.footer-container {
+  display: flex;
+  gap: 32px;
+}
+
+.footer-nav {
+  flex-basis: 50%;
+  display: flex;
+  gap: 32px;
+}
+
+.footer-logo,
+.footer-menu {
+  flex-grow: 1;
+}
+
+.footer::after {
+  content: '';
+  background-image: url(../images/glasses.png);
+  width: 247px;
+  height: 152px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-repeat: no-repeat;
+}

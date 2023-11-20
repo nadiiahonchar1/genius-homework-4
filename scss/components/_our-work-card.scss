@@ -1,0 +1,23 @@
+.our-work-card {
+  border-radius: 120px 4px;
+  background: linear-gradient(
+    180deg,
+    rgba(1, 28, 68, 0) 48.53%,
+    rgba(1, 28, 68, 0.73) 84.61%,
+    #011c44 101.39%
+  );
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.2s;
+}
+
+.our-work-card:hover {
+  transform: scale(1.05);
+}
+
+.our-work-card h3 {
+  position: absolute;
+  bottom: 0;
+  left: 30%;
+  text-align: center;
+}

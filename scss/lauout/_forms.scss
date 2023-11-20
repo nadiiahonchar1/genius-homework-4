@@ -1,0 +1,79 @@
+.modal-title {
+  color: var(--color-primary-light);
+  font-family: 'Play', sans-serif;
+  font-size: 64px;
+  line-height: 1;
+  text-align: center;
+  margin-bottom: 46px;
+}
+
+.modal-text {
+  color: var(--color-primary-light);
+  font-size: 22px;
+  line-height: 1;
+  text-align: center;
+  margin-bottom: 32px;
+  font-weight: 600;
+}
+
+.modal-text span {
+  color: var(--color-primary-accent);
+}
+
+.form-field {
+  margin-bottom: 24px;
+}
+
+.form-input {
+  padding: 18px 32px;
+  width: 100%;
+  border-radius: 32px;
+  line-height: 1;
+  border: 2px solid var(--color-secondary-light);
+  color: var(--color-primary-light);
+  background-color: transparent;
+}
+
+.form-input:focus {
+  border-color: var(--color-secondary-light);
+  background-color: var(--color-secondary-light);
+  color: var(--color-primary-light);
+  outline: none;
+}
+
+.form-input::placeholder {
+  color: var(--color-primary-light);
+  font-family: Roboto;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.form-term {
+  color: var(--color-secondary-light);
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  max-width: 220px;
+  margin: 0 auto;
+}
+
+.form-term-link {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.form-container {
+  border-radius: 32px;
+  width: 100%;
+  max-width: 423px;
+  height: 100%;
+  /* max-height: 481px; */
+  background-color: var(--color-primary-dark);
+  background-image: url(../images/Background-form.png);
+  padding: 48px 57px;
+}

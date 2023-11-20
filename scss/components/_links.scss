@@ -1,0 +1,45 @@
+.link-header {
+  color: var(--color-primary-dark);
+  font-weight: 400;
+  cursor: pointer;
+
+  font-family: inherit;
+  transition: color 0.2s;
+}
+
+.link-header:hover,
+.link-header:focus,
+.link-header:active {
+  /* font-weight: 700; */
+  color: var(--color-primary-accent);
+}
+
+.link-footer {
+  color: var(--color-primary-light);
+  font-size: 16px;
+  font-weight: 400;
+  font-family: inherit;
+  transition: color 0.2s;
+}
+
+.link-footer:hover,
+.link-footer:focus,
+.link-footer:active {
+  /* font-weight: 700; */
+  color: var(--color-primary-accent);
+}
+
+.address {
+  font-style: normal;
+}
+
+.footer-address {
+  flex-basis: 50%;
+  display: flex;
+  gap: 32px;
+}
+
+.address-list,
+.address-info {
+  flex-grow: 1;
+}
