@@ -1,4 +1,15 @@
 .why-us-section {
+  position: relative;
+  &::before {
+    content: '';
+    width: 100%;
+    height: 130%;
+    position: absolute;
+    top: -20%;
+    background-image: url(../../images/background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   &__title {
     margin-bottom: 48px;
     text-align: center;
