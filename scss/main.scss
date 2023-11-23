@@ -1,10 +1,16 @@
+@import './utils/fonts';
+@import './utils/variables';
+@import './utils/texts';
+@import './utils/utils';
+
 @import './base';
+
 @import './components/buttons';
 @import './components/carousel-button';
 @import './components/our-work-card';
 @import './components/links';
-@import './utils/fonts';
-@import './utils/variables';
+@import './components/pagination';
+
 @import './lauout/header';
 @import './lauout/container';
 @import './lauout/section';
@@ -16,5 +22,4 @@
 @import './lauout/footer';
 @import './lauout/modal';
 @import './lauout/forms';
-@import './utils/texts';
-@import './utils/utils';
+@import './lauout/mobile-menu';

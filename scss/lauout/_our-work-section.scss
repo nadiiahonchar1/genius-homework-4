@@ -15,17 +15,24 @@
   }
 }
 
-.our-work {
-  &__list {
-    display: flex;
-    gap: 16px;
-    /* flex-wrap: nowrap; */
-    flex-wrap: wrap;
-    flex-shrink: 0;
-  }
+.our-work-slider {
+  display: flex;
+  gap: 32px;
+  flex-shrink: 0;
+  align-items: center;
+}
 
-  &__item {
+.our-work-container {
+  overflow: hidden;
+}
+
+.our-work__list {
+  margin-bottom: 32px;
+}
+
+.our-work__button {
+  display: none;
+  @media screen and (min-width: $bp-tablet) {
     display: flex;
-    flex-basis: calc((100% - 32px) / 3);
   }
 }

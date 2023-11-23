@@ -9,6 +9,7 @@
     background-image: url(../../images/background.svg);
     background-repeat: no-repeat;
     background-size: cover;
+    z-index: -1;
   }
   &__title {
     margin-bottom: 48px;
@@ -19,10 +20,15 @@
   }
 
   &__list {
-    display: flex;
-    gap: 56px;
-    flex-wrap: wrap;
+    display: block;
+    // gap: 56px;
+    // flex-wrap: wrap;
     padding: 0 78px;
+    @media screen and (min-width: $bp-desctop) {
+      display: flex;
+      gap: 56px;
+      flex-wrap: wrap;
+    }
   }
 
   &__item {
@@ -31,6 +37,16 @@
     box-shadow: 0px 4px 4px 0px rgba(168, 198, 245, 1.38);
     border-radius: 32px;
     text-align: center;
+    background-color: var(--color-primary-light);
+
+    &:not(:last-child) {
+      margin-bottom: 12px;
+    }
+    @media screen and (min-width: $bp-desctop) {
+      &:not(:last-child) {
+        margin-bottom: 0;
+      }
+    }
   }
 
   &__icon {

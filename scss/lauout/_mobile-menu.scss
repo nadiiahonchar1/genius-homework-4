@@ -1,0 +1,39 @@
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 16px 24px;
+  background-color: var(--color-primary-light);
+  transform: translateX(100%);
+  transition: transform 0.2s;
+
+  &.is-open {
+    transform: translateX(0);
+  }
+
+  &__btn-close {
+    position: absolute;
+    top: 16px;
+    right: 24px;
+    fill: var(--color-primary-dark);
+    border: none;
+    background-color: transparent;
+  }
+
+  // &::after {
+  //   content: '';
+  //   width: 180px;
+  //   height: 240px;
+  //   position: absolute;
+  //   bottom: 0vh;
+  //   right: 0;
+  //   transform: rotate(-15.053deg);
+  //   background-image: url(../images/backerGroup.png);
+  // }
+}
+
+.logo-burger {
+  margin-bottom: 32px;
+}

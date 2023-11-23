@@ -5,38 +5,21 @@
 
   font-family: inherit;
   transition: color 0.2s;
+  margin-bottom: 16px;
 
   &:hover,
   &:focus,
   &:active {
-    /* font-weight: 700; */
     color: var(--color-primary-accent);
   }
-}
 
-.link-footer {
-  color: var(--color-primary-light);
-  font-size: 16px;
-  font-weight: 400;
-  font-family: inherit;
-  transition: color 0.2s;
-
-  &:hover,
-  &:focus,
-  &:active {
-    /* font-weight: 700; */
-    color: var(--color-primary-accent);
+  @media screen and (min-width: $bp-tablet) {
+    margin-bottom: 0;
   }
 }
 
 .address {
   font-style: normal;
-}
-
-.footer-address {
-  flex-basis: 50%;
-  display: flex;
-  gap: 32px;
 }
 
 .address-list,

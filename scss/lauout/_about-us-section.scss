@@ -19,22 +19,34 @@
 }
 
 .about-us-section-text :not(:last-child) {
-  margin-top: 40px;
+  margin-top: 24px;
+  @media screen and (min-width: $bp-desctop) {
+    margin-top: 40px;
+  }
 }
 
 .about-us__container {
   display: flex;
   gap: 28px;
+  position: relative;
 }
 
 .about-us-text-container {
-  padding-top: 40px;
-  flex-basis: 50%;
+  padding-top: 0;
+  // flex-basis: 50%;
+  @media screen and (min-width: $bp-desctop) {
+    padding-top: 40px;
+    flex-basis: 50%;
+  }
 }
 
 .img-container {
-  flex-basis: 50%;
-  position: relative;
+  display: none;
+  @media screen and (min-width: $bp-desctop) {
+    display: block;
+    flex-basis: 50%;
+    position: relative;
+  }
 }
 
 .face-before {
@@ -81,6 +93,18 @@
   right: 40px;
   animation: rotateAndMove 10s linear infinite;
   animation-delay: 4s;
+}
+
+.star4 {
+  fill: var(--color-secondary);
+  top: 260px;
+  right: 100px;
+  animation: rotateAndMove 10s linear infinite;
+  animation-delay: 4s;
+
+  @media screen and (min-width: $bp-desctop) {
+    display: none;
+  }
 }
 
 @keyframes rotateAndMove {

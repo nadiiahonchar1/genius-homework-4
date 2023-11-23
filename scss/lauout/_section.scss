@@ -2,7 +2,12 @@
   padding: 48px 0;
 
   &-title {
-    font-size: 64px;
-    font-weight: 700;
+    font-size: 32px;
+    font-weight: 500;
+
+    @media screen and (min-width: $bp-desctop) {
+      font-size: 64px;
+      font-weight: 700;
+    }
   }
 }

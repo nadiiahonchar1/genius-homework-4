@@ -18,10 +18,15 @@ a {
 body {
   color: var(--color-primary-dark);
   font-family: 'Roboto', sans-serif;
-  font-size: 18px;
-  line-height: 1;
+  font-size: 12px;
+  line-height: 1.5;
   margin: 0;
   padding: 0;
+
+  @media screen and (min-width: $bp-tablet) {
+    font-size: 18px;
+    line-height: 1;
+  }
 }
 
 h1,
@@ -32,4 +37,20 @@ h5,
 h6,
 p {
   margin-top: 0;
+}
+
+.hidden {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
 }
