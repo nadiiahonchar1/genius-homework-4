@@ -70,10 +70,11 @@
 .form-container {
   border-radius: 32px;
   width: 100%;
-  max-width: 423px;
   height: 100%;
-  /* max-height: 481px; */
   background-color: var(--color-primary-dark);
   background-image: url(../images/Background-form.png);
-  padding: 48px 57px;
+  padding: 35px 57px;
+  @media screen and (min-width: $bp-tablet) {
+    max-width: 423px;
+  }
 }

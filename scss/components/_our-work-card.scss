@@ -10,7 +10,6 @@
   overflow: hidden;
   height: 456px;
   flex-grow: 1;
-  // transition: transform 0.2s;
 
   h3 {
     position: absolute;
@@ -18,10 +17,6 @@
     left: 30%;
     text-align: center;
   }
-
-  // &:hover {
-  //   transform: scale(1.05);
-  // }
 }
 
 .format-image {

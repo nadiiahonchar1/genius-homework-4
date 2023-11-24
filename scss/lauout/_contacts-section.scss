@@ -8,8 +8,13 @@
 
 .contacts-container {
   display: flex;
-  gap: 32px;
-  padding: 0 78px;
+  gap: 24px;
+  flex-direction: column-reverse;
+  @media screen and (min-width: $bp-tablet) {
+    padding: 0 78px;
+    flex-direction: row;
+    gap: 32px;
+  }
 }
 
 .on-contact {
@@ -19,4 +24,23 @@
 .maps {
   border-radius: 32px;
   overflow: hidden;
+  flex-shrink: 0;
+  margin: 0 -24px;
+  height: 232px;
+
+  @media screen and (min-width: $bp-tablet) {
+    margin: auto;
+    width: 320px;
+    height: 481px;
+  }
+
+  @media screen and (min-width: $bp-desctop) {
+    width: 605px;
+  }
+}
+.contacts-section {
+  padding-bottom: 0;
+  @media screen and (min-width: $bp-tablet) {
+    padding-bottom: 48px;
+  }
 }
